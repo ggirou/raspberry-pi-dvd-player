@@ -4,4 +4,4 @@ Wants=turn-on-screen.service
 
 [Service]
 User=pi
-ExecStart=vlc --intf http --http-password=mypassword --play-and-exit --no-video-title-show dvdsimple://
+ExecStart=vlc --intf http --http-password=mypassword --play-and-exit --audio-language=fr --no-video-title-show dvdsimple://#1
